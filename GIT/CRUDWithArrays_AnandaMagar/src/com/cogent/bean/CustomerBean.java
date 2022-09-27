@@ -18,7 +18,7 @@ public class CustomerBean implements Serializable{
 	
 	@Override
 	public String toString() {
-		return "CustomerBean [customerId=" + customerId + ", customerName=" + customerName + "]";
+		return "Customer ID: " + customerId + " | " + "Customer Name: " + customerName;
 	}
 
 	public CustomerBean(long customerId, String customerName) {

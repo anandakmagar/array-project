@@ -28,7 +28,7 @@ public class CustomerRepo{
         String customerName = scnr.nextLine();
 
         
-        for(int i = 0; i < 4; i++) {
+        for(int i = 0; i < customerBeans.length; i++) {
         	if(customerBeans[i] == null) {
         		customerBeans[i] = new CustomerBean(customerId, customerName);
         		break;
@@ -60,8 +60,7 @@ public class CustomerRepo{
     			break;
     		}
     		else {
-    			System.out.println("Not found");
-    			
+    			continue;
     		}
     	}
 

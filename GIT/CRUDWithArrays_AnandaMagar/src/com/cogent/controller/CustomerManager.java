@@ -20,22 +20,22 @@ public class CustomerManager {
 		Scanner scnr = new Scanner(System.in);
 		
 		System.out.println();
-		System.out.println("Please select your desired option");
-		System.out.println();
 		
 		
 			while(true) {
 			
 			System.out.println("****************************");
-			System.out.println("CUSTOMER MANAGEMENT SYSTEM");
+			System.out.println(" CUSTOMER MANAGEMENT SYSTEM");
 			System.out.println("****************************");
 			System.out.println("1. Add Customer");
 			System.out.println("2. View All Customers");
 			System.out.println("3. Search Customer By ID");
 			System.out.println("4. EXIT");
 			
-			
 			System.out.println();
+			System.out.println();
+			
+			System.out.println("Please select your desired option");
 			
 			int option = scnr.nextInt();
 			scnr.nextLine();
